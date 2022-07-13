@@ -72,12 +72,12 @@ int main()
 
 
 
-    // 11. WAP to Take Time as Input in Given Format and Convert and Display in Given Format :-
-    int hour,minute;
-    printf("Enter Time in this Format:- HH:MM\n");
-    scanf("%d:%d",&hour,&minute);
-    printf("Converted Time :-\n");
-    printf("%d Hour and %d  Minutes",hour,minute);
+    //  11. WAP to Take Time as Input in Given Format and Convert and Display in Given Format :-
+    //  int hour,minute;
+    //  printf("Enter Time in this Format:- HH:MM\n");
+    //  scanf("%d:%d",&hour,&minute);
+    //  printf("Converted Time :-\n");
+    //  printf("%d Hour and %d  Minutes",hour,minute);
 
 
 
