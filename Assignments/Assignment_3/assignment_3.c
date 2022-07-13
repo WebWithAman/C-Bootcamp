@@ -58,10 +58,15 @@ int main()
     //     printf("Even Number");
 
     // 5. WAP to Check a Given Number is a Three Digit Number or Not :-
-    // int num, temp;
+    // int num, temp,count=0;
     // printf("Enter A Number:");
     // scanf("%d", &num);
-    // if ((int)(num / 100.0))
+    // while(num > 0){
+    //      num/=10;
+    //      count++;
+    // }
+    
+    // if (count == 3)
     //     printf("Three Digit Number");
     // else
     //     printf("Not A Three Digit Number");
