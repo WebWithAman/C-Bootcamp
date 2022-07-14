@@ -1,5 +1,5 @@
 // C++ Bootcamp Assignment-1 Solved All Questions Here :-
-// I have Solved All Questions in this Single file :-
+// I Solved All Questions in this Single file :-
 
 
 // Header Files
@@ -72,12 +72,12 @@ int main()
 
 
 
-    //  11. WAP to Take Time as Input in Given Format and Convert and Display in Given Format :-
-    //  int hour,minute;
-    //  printf("Enter Time in this Format:- HH:MM\n");
-    //  scanf("%d:%d",&hour,&minute);
-    //  printf("Converted Time :-\n");
-    //  printf("%d Hour and %d  Minutes",hour,minute);
+    // 11. WAP to Take Time as Input in Given Format and Convert and Display in Given Format :-
+    // int hour,minute;
+    // printf("Enter Time in this Format:- HH:MM\n");
+    // scanf("%d:%d",&hour,&minute);
+    // printf("Converted Time :-\n");
+    // printf("%d Hour and %d  Minutes",hour,minute);
 
 
 
@@ -93,7 +93,8 @@ int main()
     // Output of Above Code is :ineuron7
     // 7 is the Lenght of the string "ineuron"
 
-
+    getch();
+    return 0;
 
 }
 // Main Function End
