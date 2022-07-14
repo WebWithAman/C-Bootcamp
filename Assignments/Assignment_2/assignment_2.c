@@ -77,8 +77,17 @@ int main()
     
 
     // 7. WAP to Find the Position of First 1 in LSB :-
-
-    // *********** Pending 7Q. *********************
+    // int num,position=0,lsb;
+    // printf("Enter A  Number:");
+    // scanf("%d",&num);
+    // while(num != 0){
+    //     lsb = num & 1;
+    //     position++;
+    //     if(lsb == 1)
+    //       break;
+    //     num = num >> 1;
+    // }
+    // printf("Position of First 1 From LSB is : %d",position);
     
     
     
