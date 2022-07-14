@@ -1,5 +1,5 @@
 // All Questions of Assignment-2 C++ Bootcamp
-// I Have been Solved All Questions in This Single File :-
+// I Solved All Questions in This Single File :-
 
 // Header File
 #include <stdio.h>
@@ -8,6 +8,7 @@
 // Main function Start
 int main()
 {
+    
 
     // 1. WAP to Check a Given Number is Positive or Non-Positive :-
     // int num;
@@ -18,6 +19,8 @@ int main()
     // else
     //     printf("Entered Number is Non-Positive");
 
+    
+    
     // 2. WAP to Check a Given is Divisible by 5 or Not :-
     // int num;
     // printf("Enter A Number:");
@@ -27,6 +30,8 @@ int main()
     // else
     //     printf("Not Divisible by 5");
 
+    
+    
     // 3. WAP to Check a Given Number is Even or Odd :-
     // int num;
     // printf("Enter A Number:");
@@ -35,41 +40,30 @@ int main()
     //     printf("Even Number");
     // else
     //     printf("Odd Number");
+    
+    
 
     // 4.WAP to Check a Given Number is Even or Odd Without % Operator :-
-    // int num;
+    // int num; 
     // printf("Enter A Number:");
     // scanf("%d", &num);
-    // if (num & 1)
+    // if (num / 2.0 > (int)(num / 2.0))
     //     printf("Odd Number");
     // else
     //     printf("Even Number");
-
-    // int num, intPart;
-    // float quotient;
-    // printf("Enter A Number:");
-    // scanf("%d", &num);
-    // quotient = num / 2.0;
-    // intPart = (int)quotient;
-    // intPart = (quotient - intPart) * 10;
-    // if (intPart > 0)
-    //     printf("Odd Number");
-    // else
-    //     printf("Even Number");
+    
+    
 
     // 5. WAP to Check a Given Number is a Three Digit Number or Not :-
     // int num, temp,count=0;
     // printf("Enter A Number:");
     // scanf("%d", &num);
-    // while(num > 0){
-    //      num/=10;
-    //      count++;
-    // }
-    
-    // if (count == 3)
+    // if ( num > 99 && num < 1000)
     //     printf("Three Digit Number");
     // else
     //     printf("Not A Three Digit Number");
+    
+    
 
     // 6. WAP to Print Greater Between two Numbers :-
     // int num1,num2;
@@ -79,6 +73,8 @@ int main()
     //  printf("%d is Greater",num1);
     // else
     // printf("%d is Greater",num2);
+    
+    
 
     // 7. Find Roots of a Quadratic Equation are Real and Distinct , Real and Equal or Imaginary :-
     // int a, b, c, discri;
@@ -91,12 +87,13 @@ int main()
     //     printf("Roots are Imaginary");
     // else
     //     printf("Roots are Real and Equal");
+    
+    
 
     // 8. WAP to Check a Given Year is Leap Year or Not :-
     // unsigned short int year;
     // printf("Enter A Year:");
     // scanf("%hu", &year);
-
     // if (year % 400 == 0)
     //     printf("%hu is a Leap Year", year);
     // else if (year % 100 == 0)
@@ -105,6 +102,8 @@ int main()
     //     printf("%hu is a Leap Year", year);
     // else
     //     printf("%hu is not a Leap Year", year);
+    
+    
 
     // 9. WAP to Print Greatest Among Three Numbers :-
     // int num1, num2, num3;
@@ -116,6 +115,8 @@ int main()
     //     printf("Greatest Number is : %d", num2);
     // else
     //     printf("Greatest Number is : %d", num3);
+    
+    
 
     // 10. WAP Which Takes Cost Price and Selling Price of a Product From User . Calculate and Print Profit or Loss Percentage :-
     // float costPrice, sellPrice, percentage;
@@ -124,7 +125,6 @@ int main()
     // printf("Enter the Selling Price of Product:");
     // scanf("%f", &sellPrice);
     // percentage = (sellPrice - costPrice) / costPrice * 100;
-
     // if (percentage < 0)
     // {
     //     percentage = -percentage;
@@ -132,6 +132,8 @@ int main()
     // }
     // else
     //     printf("Profit ! of %.2f%%", percentage);
+    
+    
 
     // 11. WAP to Take Marks of 5 Subjects and Assume Marks are Given Out of 100 and Passing Marks are 33.Now Check Whether Candidate Passed or Failed :-
     // int sub1, sub2, sub3, sub4, sub5;
@@ -141,6 +143,8 @@ int main()
     //     printf("Candidate have been failed!!");
     // else
     // printf("Candidate have been Passed !!");
+    
+    
 
     // 12. WAP to Check A Given Alphabet is in Uppercase or Lowercase :-
     // char ch;
@@ -150,6 +154,8 @@ int main()
     // printf("Entered Alphabet is Uppercase");
     // else
     // printf("Entered Alphabet is Lowercase");
+    
+    
 
     // 13. WAP to Check A Given Number is Divisible by 3 and 2 :-
     // int num;
@@ -168,6 +174,8 @@ int main()
     //     printf("Divisible");
     // else
     //     printf("Not Divisible");
+    
+    
 
     // 15. WAP to Check A Given Number is Positive , Negative or Zero :-
     // int num;
@@ -179,6 +187,8 @@ int main()
     //     printf("Number is Negative");
     // else
     //     printf("Number is Zero");
+    
+    
 
     // 16. WAP to Check Whether A Character is an Alphabet(Uppercase),an Alphabet(Lowecase) ,A Digit or a Special Character :-
     // char ch;
@@ -192,51 +202,57 @@ int main()
     //     printf("Entered Character is Digit");
     // else
     //     printf("Entered Character is Special Character");
+    
+    
+    
 
     // 18. WAP to Take Month Number and Print Number of Days in That Month :-
-    short  month;
-    printf("Enter the Number of a Month:");
-    scanf("%d", &month);
-    switch (month)
-    {
-    case 1:
-        printf("31 Days");
-        break;
-    case 2:
-        printf("28 Days");
-        break;
-    case 3:
-        printf("31 Days");
-        break;
-    case 4:
-        printf("30 Days");
-        break;
-    case 5:
-        printf("31 Days");
-        break;
-    case 6:
-        printf("30 Days");
-        break;
-    case 7:
-        printf("31 Days");
-        break;
-    case 8:
-        printf("31 Days");
-        break;
-    case 9:
-        printf("30 Days");
-        break;
-    case 10:
-        printf("31 Days");
-        break;
-    case 11:
-        printf("30 Days");
-        break;
-    case 12:
-        printf("31 Days");
-        break;
-    default:
-        printf("Invalid Month");
-    }
+    // short  month;
+    // printf("Enter the Number of a Month:");
+    // scanf("%d", &month);
+    // switch (month)
+    // {
+    // case 1:
+    //     printf("31 Days");
+    //     break;
+    // case 2:
+    //     printf("28 Days");
+    //     break;
+    // case 3:
+    //     printf("31 Days");
+    //     break;
+    // case 4:
+    //     printf("30 Days");
+    //     break;
+    // case 5:
+    //     printf("31 Days");
+    //     break;
+    // case 6:
+    //     printf("30 Days");
+    //     break;
+    // case 7:
+    //     printf("31 Days");
+    //     break;
+    // case 8:
+    //     printf("31 Days");
+    //     break;
+    // case 9:
+    //     printf("30 Days");
+    //     break;
+    // case 10:
+    //     printf("31 Days");
+    //     break;
+    // case 11:
+    //     printf("30 Days");
+    //     break;
+    // case 12:
+    //     printf("31 Days");
+    //     break;
+    // default:
+    //     printf("Invalid Month");
+    // }   
+    
+    
+    
 }
     // Main function End
