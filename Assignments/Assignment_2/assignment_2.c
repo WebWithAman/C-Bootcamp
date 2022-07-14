@@ -47,7 +47,7 @@ int main()
     // printf("Enter Two Numbers:");
     // scanf("%d%d", &num1, &num2);
     // printf("Before Swaping , num1 = %d and num2 = %d\n", num1, num2);
-    // num1 =num1 + num2;
+    // num1 = num1 + num2;
     // num2 = num1 - num2;
     // num1 = num1 - num2;
     // printf("After  Swaping , num1 = %d and num2 = %d", num1, num2);
