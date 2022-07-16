@@ -205,7 +205,18 @@ int main()
     
     
     
+    // 17. WAP to takes Length of Sides of Triangle as an input . Display Whether the Triangle is Valid or Not :-
+    // float side1, side2, side3;
+    // printf("Enter The Length of Sides of A Triangle:");
+    // scanf("%f%f%f", &side1, &side2, &side3);
+    // if ((side1 + side2 >= side3) && (side1 + side3 >= side2) && (side2 + side3 >= side1))
+    //     printf("Traiangle is Valid");
+    // else
+    //     printf("Triangle is Not Valid");
+    
 
+    
+    
     // 18. WAP to Take Month Number and Print Number of Days in That Month :-
     // short  month;
     // printf("Enter the Number of a Month:");
