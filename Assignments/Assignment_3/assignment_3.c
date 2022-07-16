@@ -210,49 +210,36 @@ int main()
     // short  month;
     // printf("Enter the Number of a Month:");
     // scanf("%d", &month);
-    // switch (month)
-    // {
-    // case 1:
+    // if (month == 1)
     //     printf("31 Days");
-    //     break;
-    // case 2:
+    // else if (month == 2)
     //     printf("28 Days");
-    //     break;
-    // case 3:
+    // else if (month == 3)
     //     printf("31 Days");
-    //     break;
-    // case 4:
+    // else if (month == 4)
     //     printf("30 Days");
-    //     break;
-    // case 5:
+    // else if (month == 5)
     //     printf("31 Days");
-    //     break;
-    // case 6:
+    // else if (month == 6)
     //     printf("30 Days");
-    //     break;
-    // case 7:
+    // else if (month == 7)
     //     printf("31 Days");
-    //     break;
-    // case 8:
+    // else if (month == 8)
     //     printf("31 Days");
-    //     break;
-    // case 9:
+    // else if (month == 9)
     //     printf("30 Days");
-    //     break;
-    // case 10:
+    // else if (month == 10)
     //     printf("31 Days");
-    //     break;
-    // case 11:
+    // else if (month == 11)
     //     printf("30 Days");
-    //     break;
-    // case 12:
+    // else if (month == 12)
     //     printf("31 Days");
-    //     break;
-    // default:
+    // else
     //     printf("Invalid Month");
-    // }   
+
     
-    
+    getch();
+    return 0;
     
 }
     // Main function End
