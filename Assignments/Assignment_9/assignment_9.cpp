@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
-#include <iostream>
 #include <math.h>
 
 // Main Function Start
