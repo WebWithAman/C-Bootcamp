@@ -110,19 +110,16 @@ int main()
     // int i, j, num;
     // printf("Enter A Number to Find Next Prime Number Than You Enter:");
     // scanf("%d", &num);
-    // for (i = num + 1; 1; i++)
-    //     if (i % 2)
-    //     {
+    // for (i = num + 1; 1; i++){
     //         for (j = 2; j < i; j++)
     //             if (!(i % j))
     //                 break;
-
     //         if (j == i)
     //         {
     //             printf("%d ", i);
     //             break;
     //         }
-    //     }
+    // }
 
 
 
