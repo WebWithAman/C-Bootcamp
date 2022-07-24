@@ -90,6 +90,7 @@ int main()
     //         printf("Invalid Choice");
     //     }
     //     getch();
+    //     fflush(stdin);
     //     printf("\n");
     //     printf("\n");
     // }
@@ -181,6 +182,7 @@ int main()
     //         printf("Invalid Choice");
     //     }
     //     getch();
+    //     fflush(stdin);
     //     printf("\n");
     //     printf("\n");
     // }
