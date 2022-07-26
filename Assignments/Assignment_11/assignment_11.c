@@ -248,13 +248,13 @@ void printPascalTriangle(int rows)
             if (j >= rows + 1 - i && j <= rows + i - 1 && k)
             {
                 int element = factorial(i - 1) / (factorial(cols - 1) * (factorial((i - 1) - (cols - 1))));
-                printf("%d", element);
+                printf("%3", element);
                 k = 0;
                 cols++;
             }
             else
             {
-                printf(" ");
+                printf("   ");
                 k = 1;
             }
         }
