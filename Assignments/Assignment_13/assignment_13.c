@@ -101,7 +101,7 @@ int main()
     // int base, power;
     // printf("Enter Base and Power:");
     // scanf("%d%d", &base, &power);
-    // printf("%d Raised to Power %d is %d", base, power, calculatePower(base, power));
+    // printf("%d Raised to Power %d is %.2f", base, power, calculatePower(base,power));
 
     getch();
     return 0;
@@ -195,7 +195,10 @@ int countDigitsInNumber(int num)
 int calculatePower(int base, int power)
 {
 
-    if (power == 1)
-        return base;
-    return base * calculatePower(base, --power);
+    if (power == 0)
+        return 1;
+    if (power > 0)
+        return base * calculatePower(base, --power);
+    else
+        return 1.0 / base * calculatePower(base, ++power);
 }
